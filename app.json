@@ -1,0 +1,45 @@
+{
+    "pages":[
+        "pages/index/index",
+        "pages/about/about"
+    ],
+     "window": {
+      "navigationBarBackgroundColor": "#000",
+      "navigationBarTextStyle": "white",
+      "navigationBarTitleText": "计算器",
+      "backgroundColor": "#eeeeee",
+      "backgroundTextStyle": "light",
+      "enablePullDownRefresh": false
+    },
+
+    "networkTimeout":{
+        "request":1500,
+        "connectSocket":1500,
+        "uploadFile":1500,
+        "downloadFile":1500
+    },
+
+    "tabBar":{
+        "color":"#f4aa3a3",
+        "selectedColor":"#f4aa3a3",
+       "backgroundColor":"#ccc",
+       "borderStyle":"white",
+       "position":"bottom",
+        "list":[
+            {
+                "pagePath":"pages/index/index",
+                "text":"计算器",
+                "selectedIconPath":"images/icon_API_HL.png",
+                "iconPath":"images/icon_API.png"
+            },
+            {
+                "pagePath":"pages/about/about",
+                "text":"设置",
+                "selectedIconPath":"images/icon_component_HL.png ",
+                "iconPath":"images/icon_component.png"
+            }
+        ]
+    },
+
+    "debug":true
+}

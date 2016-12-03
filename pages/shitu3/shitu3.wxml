@@ -1,0 +1,3 @@
+<import src="../shitu2/shitu2.wxml"/>
+<template is="A"/>  <!-- Error! Can not use tempalte when not import A. -->
+<template is="B"/>

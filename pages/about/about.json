@@ -1,0 +1,8 @@
+{
+    "navigationBarBackgroundColor": "#ccc",
+      "navigationBarTextStyle": "white",
+      "navigationBarTitleText": "设置",
+      "backgroundColor": "#eeeeee",
+      "backgroundTextStyle": "light",
+      "enablePullDownRefresh": true
+}

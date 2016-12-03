@@ -1,0 +1,6 @@
+<swiper class="a" indicator-dots="{{true}}" bondchange="change" autoplay="flase">
+  <block wx:for="{{topS}}">
+    <swiper-item class="b" style="background-size:cover;background-image:url({{item.image}})">
+    </swiper-item>
+  </block>
+</swiper>

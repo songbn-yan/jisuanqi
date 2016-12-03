@@ -1,0 +1,5 @@
+<import src="../shitu1/shitu1.wxml"/>
+<template name="B">
+  <text> B template </text>
+</template>
+<template is="A"/>
